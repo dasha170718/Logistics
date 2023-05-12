@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e2b397c373848419ade4bc3073feb34" Name="Diagram1">
+        <EntityTypeShape EntityType="LogisticsModel.Customer" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Delivery" Width="1.5" PointX="6.375" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Order" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Product" Width="1.875" PointX="3.125" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Route" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Shipment" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Supplier" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.Warehouse" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LogisticsModel.RouteDetail" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="LogisticsModel.FK__Order__CustomerI__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__Delivery__Produc__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__Delivery__Suppli__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__OrderDeta__Order__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__Shipment__OrderI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__OrderDeta__Produ__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__Product__Warehou__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__RouteDeta__Route__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__Shipment__RouteI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="LogisticsModel.FK__RouteDeta__Wareh__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
